@@ -1,7 +1,7 @@
 function fibonacci(num) {
 // your code here
 if(num<=1){
-    return num;
+    return 0;
 }
 
 let i=0, j=1, ans=0;
