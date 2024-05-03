@@ -16,7 +16,4 @@ return ans;
 }
 	
 
-	
-}
-
 module.exports = fibonacci;
