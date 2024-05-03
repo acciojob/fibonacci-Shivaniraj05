@@ -6,13 +6,13 @@ if(num<=1){
 
 let i=0, j=1, ans=0;
 
-for(let k=2;k<num;k++){
+for(let k=2;k<=num;k++){
     ans=i+j;
     i=j;
     j=ans;
 }
 
-return ans;
+return i;
 }
 	
 
